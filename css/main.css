@@ -1,0 +1,1102 @@
+/*-----------------------------------------------------
+BASIC SETUP
+-----------------------------------------------------*/
+
+
+html {
+  font-size: 0.762em;
+  font-family: Roboto, sans-serif;
+  color: #0C256A;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #FAFAFA;
+
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0C256A;
+
+}
+
+h1 {
+  /*50px*/
+  font-size: 3.2em;
+}
+
+h2 {
+  /*37px*/
+  font-size: 2.3em;
+}
+
+h3 {
+  /*28px*/
+  font-size: 1.75em;
+}
+
+h4 {
+  /*21px*/
+  font-size: 1.3em;
+}
+
+h5 {
+  /*16px*/
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+h6 {
+  /*12px*/
+  font-size: 0.75em;
+}
+
+p, label {
+  font-size: 1em;
+  line-height: 1.75;
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+  color: #0C256A;
+}
+
+label {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  color: #0C256A;
+}
+
+
+/*-----------------------------------------------------
+NAVIGATION
+-----------------------------------------------------*/
+
+.state-nav {
+  width: 100%;
+  height: 100px;
+  background-color: #0c256a;
+}
+
+.nav-links{
+margin-top: -40px;
+display: none;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: 0.8em;
+  padding-right: 1%;
+  padding-left: 1%;
+  text-decoration: none;
+  text-align: right;
+}
+.nav-links nav {
+  text-align: right;
+}
+
+.nav a{
+  padding: 5px 9px !important;
+  font-size: 0.9em !important;
+}
+
+.nav-links a:hover {
+  color: #ff794c;
+  background-color: none !important;
+}
+
+.nav-links li:hover{
+  background-color: none;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none ;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #0c256a;
+}
+.navbar-header{
+  float: right;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-toggle{
+  margin-top: -40px;
+}
+
+.facebook-icon{
+  width: 40px;
+}
+
+.hero-box {
+  z-index: -1;
+  position: absolute;
+  height:900px;
+  width:100%;
+  top: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(../img/magnificent-seven.jpg);
+  background-size: cover;
+  background-position: center;
+  clip: rect(0px,2500px,620px,0px);
+  /*background-attachment: fixed;*/
+}
+
+.logo-box {
+  margin-top: -40px;
+}
+
+.logo-box img {
+  display: none;
+}
+
+.logo-mobile img {
+  width: 100px;
+  display: block;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+.navbar-toggle .icon-bar {
+  width: 40px;
+  height: 4px;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 7px;
+}
+
+.navbar-nav  {
+  display: block;
+}
+
+
+
+.navbar-nav > li > a {
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.nav a {
+  font-size: 1.4em !important;
+}
+
+.navbar-toggle span {
+  padding-bottom: 2px;
+}
+
+
+
+.now-playing {
+    margin-top: 95px;
+    width: 200px;
+
+}
+
+.now-playing p {
+  padding: 0 5px;
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #0c256a;
+}
+
+.movie-title {
+  margin-top: 25px;
+
+
+}
+
+.movie-title p {
+  vertical-align: middle;
+  padding: 10px 0;
+  line-height: 1.2em;
+  font-size: 2.8em;
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+  background-color: #0c256a;
+}
+
+.down-arrow {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.showtimes {
+  text-align: center;
+  font-size: 2.8em;
+  margin-top: 60px;
+}
+
+.orange-border {
+  border-bottom: 2px solid #FF794C;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.orange-border-left{
+  border-bottom: 2px solid #FF794C;
+  width: 200px;
+  float: none;
+  margin: 0 auto;
+}
+
+.poster-show {
+  display: none;
+}
+
+.poster-shadow {
+
+}
+
+.showings-title {
+  font-size: 1.4em;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: bold;
+  color: #0c256a;
+
+
+}
+
+.movie-times p{
+  color: #0c256a;
+  line-height: 1.7em;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.movie-times {
+}
+.movie-times span{
+  color: #FF794C;
+}
+
+.movie-times img {
+  width: 60px;
+  margin-top: -35px;
+  margin-left: -60px;
+}
+
+.running-time span{
+  margin-right: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #0c256a;
+    text-align: center;
+}
+
+.running-logos {
+  text-align: center;
+}
+
+.running-time img {
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  border: 2px solid #0c256a;
+  padding: 2px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 64%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.now-playing-container {
+  border: 0.5px solid #000;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #fff;
+
+}
+.main-movie-heading {
+  text-align: center;
+}
+
+.admission-section {
+  border-bottom: 0.5px solid #000;
+}
+
+.admission-border {
+  border-top: 0.5px solid #000;
+  border-bottom: 0.5px solid #000;
+  background-color: #fff;
+  height:620px;
+}
+
+.football-border {
+  /*border-top: 0.5px solid #000;*/
+
+    background-color: #fff;
+    height:583px;
+}
+
+.football-border-top {
+  position: relative;
+  width: 100%;
+  border-top: 0.5px solid #000;
+  margin-top: 30px;
+}
+
+
+.admission-col {
+  height: 515px;
+
+}
+
+.admission-con {
+  margin-top: 20px;
+
+}
+
+.admission-no-pad-right {
+  padding-left: 10;
+  /*margin-right: 0;*/
+}
+
+.admission-div h2{
+  color: #0c256a;
+  padding-bottom: 20px;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.admission-div h2{
+  margin-top: 20px;
+
+}
+
+.admission-div p {
+  font-size: 1em;
+  line-height: 0.6em;
+  color: #0c256a;
+}
+
+.admission-div h4 {
+  font-family: Roboto;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.admission-div  {
+  text-align: center;
+}
+
+.show-prices {
+  color: #0c256a;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+
+
+.showings {
+  display: block;
+  padding-top: 20px;
+}
+.real-three{
+  padding-left: 180px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.show-prices h4 {
+  font-size: 1.3em;
+  font-family: Roboto;
+  font-weight:bold;
+  text-decoration: underline;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.show-prices p {
+  font-size: 1.1em;
+  font-weight:bold;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+
+
+.border-line {
+  border-bottom: 0.5px solid #000;
+  width:90%;
+  padding-bottom: 130px;
+  margin-left: 10px;
+}
+
+.admission-info {
+  padding-top: 10px;
+}
+
+.showings-three {
+  padding-top: 40px;
+}
+
+.three-d-border {
+  margin-top: 110px;
+}
+
+.impaired-info {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 37px;
+}
+
+.impaired-info p {
+    line-height: 1.2em;
+    padding-right: 10px;
+}
+
+.impaired-logos {
+  margin-top: 10px;
+}
+
+.admission-col {
+
+  background-color: #fff;
+  padding-left: 10px;
+
+}
+.football-party-div {
+  padding-right: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.football-logos {
+  text-align: center;
+}
+
+/*.husker-border {
+  background-color: #fff;
+  padding-left: 10px;
+  height: 517px;*/
+  /*border-top: 0.5px solid #000;
+  border-bottom: 0.5px solid #000;*/
+  /*margin-right: -10px;*/
+
+}
+
+
+.football-party {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+
+}
+
+.football-party h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.football-party h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.football-party p {
+  color: #0c256a;
+  margin: 0 10px 30px 10px;
+}
+
+.football-logos span {
+  font-size: 2em;
+  font-weight: bold;
+  color: #0c256a;
+}
+
+.state-bank p{
+  color: #0c256a;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.coming-soon {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+/*POSTERS*/
+
+.individual-posters {
+  width: 5000px;
+}
+
+.posters{
+ float: left;
+ width: 180px;
+ /* width: 350px for desktop */
+}
+
+.posters img{
+  /*float: left; */
+ width: 180px;
+}
+
+.poster .poster-info {
+  margin-right: 75px;
+}
+
+.poster-info h3 {
+  font-size: 1.4em;
+  text-align: center;
+  color: #000;
+}
+
+.poster-info p{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+    color: #000;
+}
+
+.poster-info p:last-of-type {
+  font-size: 01em;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+.confirmed span{
+  color: #0a9c21;
+  font-size: 1em;
+}
+
+.poster-scroll {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.poster-scroll-row {
+  overflow-x: scroll
+}
+
+.tentative span{
+  color: #898c8a;
+  font-size: 1em;
+}
+
+.managed-section {
+  background-color: #fff;
+  border-top: 0.5px solid #000;
+  border-bottom: 0.5px solid #000;
+}
+
+.managed-logos p {
+  padding: 0 35px;
+  text-align: center;
+  color: #0c256a;
+  font-size: 1.3em;
+  line-height: 1.1em;
+  /*margin: 0 5px 40px 5px;*/
+}
+
+.managed-logos {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.managed-logos img {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+
+.american-dream-logo, .b-com-logo {
+    padding-top: 20px;
+}
+
+.special-thanks {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.special-thanks p {
+  text-align: center;
+  color: #0c256a;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+.auburn-address p {
+  text-align: center;
+  margin: 0 auto;
+  color: #0c256a;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+.footer {
+  text-align: center;
+}
+.blue-theater {
+  text-align: center;
+  margin: 0 auto;
+      margin-bottom: 20px;
+}
+
+.address-row {
+  padding-top: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.copyright-tag p {
+  color: #0c256a;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/*Supporters*/
+
+
+.picture-box {
+  margin-left: -15px;
+  padding-bottom: 20px;
+}
+
+.donors-p {
+  font-size: 1.2em;
+}
+
+.donors-p:last-child {
+  margin-left: -15px;
+  padding-bottom: 15px;
+}
+
+/*THEATER ADVERTISEMENT*/
+
+.theater-ad-heading {
+  font-size: 2.2em;
+  padding-top: 20px;
+}
+
+.form-box {
+  margin-left: -15px;
+}
+
+.questions {
+  float: right;
+
+  margin-top: -165px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.questions p {
+  display: inline;
+  font-size: 1.2em;
+  padding-right: 10px;
+
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.span-name {
+  color: #0c256a;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.checkbox label {
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+.checkbox input {
+  margin-bottom: 5px;
+
+
+}
+
+.checkbox input[type=checkbox] {
+  margin-top: 8px;
+}
+
+.form-control {
+  border: 2px solid #0c256a;
+
+}
+
+.checkbox {
+
+}
+
+.please-note p{
+  padding-top: 20px;
+  color: #D80000;
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 1.4
+
+}
+
+.submit-info {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  color: #fff;
+  background-color: #0c256a;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Theater Rental*/
+
+.picture-box {
+  width:100%;
+}
+
+.time-class {
+  padding-right: 20px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Navigation*/
+
+.navbar-nav li a {
+  color: #0c256a;
+  background-color: rgba(255, 255, 255,0.5);
+}
+
+.navbar-nav li a:hover {
+  color: #FF794C;
+}
+@media (min-width: 768px) {
+
+  .navbar-nav  {
+    display: none
+  }
+
+  .logo-box img {
+    width:200px;
+    display: block;
+  }
+
+  .logo-mobile img {
+    display:none;
+  }
+
+
+  .state-nav {
+    height: 50px;
+  }
+
+  .nav-links{
+    font-size: 1.2em;
+  margin-top: -40px;
+  display: block;
+  }
+
+  .nav-links nav {
+    text-align: right;
+  }
+  .showtimes {
+    font-size: 3.3em;
+    margin-top: 60px;
+  }
+
+  .questions {
+    margin-top: -100px;
+  }
+
+  .questions p {
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1em;
+    display: block;
+  }
+
+  .blue-theater {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .now-playing {
+      width: 240px;
+  }
+
+  .now-playing p {
+    padding: 0 5px;
+    font-size: 1.8em;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #0c256a;
+    text-align: center;
+  }
+
+  .movie-title {
+    margin-top: 25px;
+
+  }
+
+  .movie-title p {
+
+    padding-left: 10px;
+    padding-top: 15px;
+    line-height: 1.2em;
+    font-size: 3.1em;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .down-arrow {
+    margin-top: 130px;
+  }
+
+  .video-container {
+    padding-bottom: 30%;
+  }
+  .poster-show {
+    display: none;
+  }
+
+
+  .main-movie-heading {
+    text-align: left;
+  }
+
+  .orange-border-left{
+  float: left;
+  }
+
+  .poster-shadow {
+    display: block;
+    margin-left: -35px;
+    margin-top: -20px;
+  }
+
+  .showings-title {
+    font-size: 1.7em;
+    text-align: left;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  .movie-times p{
+    text-align: left;
+    /*padding-left: 40px;*/
+    font-size: 1em;
+
+  }
+
+  .running-time span{
+    margin-right: 15px;
+  }
+
+  .running-logos {
+    text-align: left;
+  }
+
+  .admission-div h2 {
+    text-align: left;
+    font-size: 1.8em;
+  }
+
+  .real-three{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .showings {
+    display: inline-block;
+  }
+
+  .show-prices p {
+    text-align: left;
+  }
+
+  .showings-three {
+    padding-top: 20px;
+  }
+
+  .three-d-border {
+    margin-top: 0px;
+  }
+  .admission-div  {
+    text-align: left;
+    height: 90px;
+  }
+
+  .admission-no-pad-right {
+    padding-left: 0;
+}
+
+.admission-border {
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #fff;
+  height:0;
+}
+
+
+.admission-section {
+  border-bottom: 0;
+}
+
+.football-border {
+  border-top: 0;
+  height: 0;
+}
+
+.football-border-top {
+  border-top: 0;
+  margin-top: 0px;;
+}
+.football-party-div {
+  margin-top: 0px;
+  border: 0.5px solid black;
+  height: 530px;
+  background-color: #FFF;
+}
+
+  .coming-soon {
+    font-size: 3.6em;
+    margin-top: 60px;
+  }
+
+  .poster-info h3 {
+    font-size: 2em;
+  }
+
+  .poster-info p{
+    font-size: 1.6em;
+  }
+
+  .posters{
+   float: left;
+   width: 350px;
+  }
+
+  .posters img{
+   width: 350px;
+  }
+
+  .admission-col {
+    border: 0.5px solid #000;
+
+    height: 530px;
+  }
+  /*.husker-border {
+    /*border: 0.5px solid #000;*/
+    /*background-color: #fff;*/
+    /*height: 480px;*/
+
+  /*} */
+
+  .husker-border-two {
+    /*display: none;*/
+  }
+
+  .mobile-gray-line-one {
+    display: none;
+  }
+
+  .theater-ad-heading {
+    font-size: 2.8em;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .theater-line {
+    width: 70%;
+  }
+
+  .down-arrow {
+    margin-top: 185px;
+}
+  .nav-links {
+    font-size: 1.4em;
+  }
+  .poster-show {
+    display: block;
+    margin-top: 20px;
+
+  }
+  .movie-times p{
+    padding-left: 40px;
+  }
+  .running-time span{
+    margin-right: 30px;
+  }
+
+  .showings-title {
+    font-size: 1.3em;
+    padding-left: 40px;
+  }
+
+  .football-party h2 {
+    font-size: 2.6em;
+  }
+
+  .football-party h3 {
+    font-size: 2em;
+
+  }
+  .football-party-div {
+    height: 530px;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .nav-links {
+    font-size: 1.4em;
+  }
+  .down-arrow {
+    margin-top: 170px;
+}
+
+  .movie-title p {
+    font-size: 4em;
+  }
+
+  .showtimes {
+  margin-top: 100px;
+  }
+
+
+  .showings-title {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+
+  }
+  .movie-times p{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 1.2em;
+
+  }
+}
